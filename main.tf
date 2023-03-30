@@ -12,8 +12,8 @@ module "aft" {
   tf_backend_secondary_region = "eu-west-2"
 
   vcs_provider                                  = "github"
-  account_request_repo_name                     = "${var.github_pcsohany}/learn-terraform-aft-account-request"
-  global_customizations_repo_name               = "${var.github_pcsohany}/learn-terraform-aft-global-customizations"
-  account_customizations_repo_name              = "${var.github_pcsohany}/learn-terraform-aft-account-customizations"
-  account_provisioning_customizations_repo_name = "${var.github_pcsohany}/learn-terraform-aft-account-provisioning-customizations"
+  account_request_repo_name                     = "github.com/pcsohany/learn-terraform-aft-account-request"
+  global_customizations_repo_name               = "github.com/pcsohany/learn-terraform-aft-global-customizations"
+  account_customizations_repo_name              = "github.com/pcsohany/learn-terraform-aft-account-customizations"
+  account_provisioning_customizations_repo_name = "github.com/pcsohany/learn-terraform-aft-account-provisioning-customizations"
 }
