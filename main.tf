@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 module "aft" {
-   source                      = "github.com/aws-ia/terraform-aws-control_tower_account_factory"
+   source                      = "github.com/pcsohany/terraform-aws-control_tower_account_factory"
 
   ct_management_account_id    = var.911403190714
   log_archive_account_id      = var.492604715259
