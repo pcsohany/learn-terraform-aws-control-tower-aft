@@ -4,11 +4,11 @@
 module "aft" {
    source                      = "github.com/aws-ia/terraform-aws-control_tower_account_factory"
 
-  ct_management_account_id    = var.911403190714
-  log_archive_account_id      = var.492604715259
-  audit_account_id            = var.159779466361
-  aft_management_account_id   = var.730506990486
-  ct_home_region              = var.eu-west-1
+  ct_management_account_id    = 911403190714
+  log_archive_account_id      = 492604715259
+  audit_account_id            = 159779466361
+  aft_management_account_id   = 730506990486
+  ct_home_region              = "eu-west-1"
   tf_backend_secondary_region = "eu-west-2"
 
   vcs_provider                                  = "github"
